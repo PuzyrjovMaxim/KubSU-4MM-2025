@@ -9,7 +9,7 @@ public class TelegrambotApplication {
 
 	public static void main(String[] args) {
 		TestController controller = new TestController();
-		String hello = controller.hello();
+		String hello = controller.hello("name");
 		System.out.println(hello);
 
 		SpringApplication.run(TelegrambotApplication.class, args);
